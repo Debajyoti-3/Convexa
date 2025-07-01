@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Sidebar from './components/Sidebar/Sidebar.jsx'
+import Main from './components/Main/Main.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
     <Sidebar/>
+    <Main/>
     </>
   )
 }
